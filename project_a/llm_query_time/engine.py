@@ -195,3 +195,4 @@ Format your answer as valid JSON matching this schema:
         rec = "OLD" if old_tax < new_tax else ("NEW" if new_tax < old_tax else "EITHER")
         exp = f"Calculated via query-time prompt with full statutory clauses for FY {self.fy}."
         return old_tax, new_tax, rec, exp
+

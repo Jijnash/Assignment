@@ -145,3 +145,4 @@ def run_benchmark():
 if __name__ == "__main__":
     matrix = run_benchmark()
     print(json.dumps(matrix, indent=2))
+

@@ -89,3 +89,4 @@ flowchart TD
 3. **Transition from General LLM to Distilled Cross-Encoder**:
    - At 50M rows/day, even 0.5% LLM traffic is 250,000 calls/day.
    - We replace the general LLM with a 6-layer distilled DeBERTa-v3 cross-encoder model deployed on a single \$0.40/hr GPU instance, dropping latency to **6 ms** and cutting third-party API dependencies entirely.
+

@@ -90,3 +90,4 @@ class ClarificationRequest(BaseModel):
     ambiguities: List[str] = Field(default_factory=list)
     clarification_question: Optional[str] = None
     extracted_profile: Optional[TaxPayerProfile] = None
+

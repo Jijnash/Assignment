@@ -62,3 +62,4 @@ This document details the AI tools used during the development of this assignmen
 * **The Correction**: Under the statutory proviso to Section 87A for Section 115BAC, the tax payable after rebate cannot exceed the excess of income over ₹7,00,000:
   $$\text{Tax Payable} = \min(\text{BaseTax}, \text{TaxableIncome} - ₹7,00,000)$$
   We updated the implementation to explicitly compute `marginal_relief_87a = base_tax - (net_taxable_income - rebate_threshold)`, guaranteeing rupee-exact alignment with the official government tax portal.
+

@@ -515,3 +515,4 @@ class HandCodedTaxCalculator:
             tax_difference=diff,
             explanation=explanation,
         )
+

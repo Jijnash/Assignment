@@ -84,3 +84,4 @@ def test_plain_language_parser(suite_data):
 
     assert clarify_count == 10  # 5 incomplete + 5 contradictory
     assert extracted_count == 40  # 15 formal + 10 informal + 15 hinglish
+

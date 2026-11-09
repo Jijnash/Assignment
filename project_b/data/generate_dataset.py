@@ -139,3 +139,4 @@ if __name__ == "__main__":
     with open("project_b/data/nyc_311_2023_sample.json", "w", encoding="utf-8") as f:
         json.dump(dataset, f, indent=2)
     print(f"Generated {len(dataset)} NYC 311 2023 records in project_b/data/nyc_311_2023_sample.json")
+

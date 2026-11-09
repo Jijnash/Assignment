@@ -161,3 +161,4 @@ if __name__ == "__main__":
     profiler = NYC311Profiler()
     profile_results = profiler.profile()
     print(json.dumps(profile_results, indent=2))
+

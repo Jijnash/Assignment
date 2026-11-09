@@ -56,3 +56,4 @@ python -m pytest project_a/test_suite/test_tax_suite.py
   - Declarative rules catch 8 of 12 problems (schema, type, coordinate swap, exact duplicates, temporal inversion, zip-borough) at **140,000+ rows/sec** for **$0.00**.
   - Statistical detectors (Z-score tests and MinHash LSH) catch agency null spikes and near-duplicates at **25,000 rows/sec** for **$0.00**.
   - The LLM is restricted exclusively to ambiguous semantic contradictions (Resolution vs Status text), slashing costs by **99.2%** to **$4.16 per million rows** while maintaining **99.6% recall**.
+

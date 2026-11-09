@@ -72,3 +72,4 @@ flowchart TD
    - **Statutory Compiler Pipeline**: On Budget Day, official Finance Bill text is ingested into an offline LLM compiler that outputs candidate declarative JSON rules.
    - **Golden Test Harness**: The generated JSON is evaluated against 200+ regression tests. Any deviation triggers an immediate human-in-the-loop review.
    - **Hot Reload**: The production engine reads versioned rulebooks (`rules_2025_26.json`) without requiring backend redeployment or downtime.
+

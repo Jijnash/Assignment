@@ -111,3 +111,4 @@ if __name__ == "__main__":
     result = pipeline.process_batch(corrupted)
     import json
     print(json.dumps(result, indent=2))
+

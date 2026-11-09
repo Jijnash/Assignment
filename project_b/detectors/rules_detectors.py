@@ -210,3 +210,4 @@ class RuleBasedDetectors:
             if PHONE_REGEX.search(text) or EMAIL_REGEX.search(text):
                 flagged.append(idx)
         return flagged
+

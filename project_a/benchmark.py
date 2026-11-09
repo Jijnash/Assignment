@@ -134,3 +134,4 @@ def run_benchmark():
 if __name__ == "__main__":
     summary = run_benchmark()
     print(json.dumps(summary, indent=2))
+
