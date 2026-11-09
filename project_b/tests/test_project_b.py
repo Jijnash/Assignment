@@ -120,3 +120,4 @@ def test_hybrid_pipeline(clean_sample):
     assert res["flagged_rows_count"] > 0
     assert res["cost_per_million_rows_usd"] < 50.0  # Massive cost saving vs $520
     assert res["throughput_rows_per_sec"] > 500.0
+

@@ -67,3 +67,4 @@ During the interview, the interviewers will intentionally change requirements on
 - **Project A Query-Time LLM Silent Failure**: Overtaxed by **₹53,560** on ₹12.1L salary by missing 87A marginal relief proviso.
 - **Project B Profiling**: 37 negative durations, 72 zip mismatches, 23 swapped coordinates, 50 PII leaks found in raw 2023 NYC 311 data.
 - **Project B Hybrid Savings**: **$4.16 / 1M rows** vs **$520.00 / 1M rows** (a **99.2% cost reduction** at 4,000+ rows/sec).
+
