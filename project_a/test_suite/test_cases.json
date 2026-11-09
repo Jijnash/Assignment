@@ -1,0 +1,6822 @@
+[
+  {
+    "test_id": "TEST_001",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 1: Entry level 3 LPA (Zero tax both)",
+    "profile": {
+      "gross_salary": 300000.0,
+      "basic_salary": 150000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_002",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 2: 5 LPA no investment (Old 50k ded -> 4.5L taxable -> 87A rebate = 0 tax)",
+    "profile": {
+      "gross_salary": 500000.0,
+      "basic_salary": 250000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_003",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 3: 5.5 LPA no investment (Old 5L taxable -> 87A rebate = 0 tax)",
+    "profile": {
+      "gross_salary": 550000.0,
+      "basic_salary": 275000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_004",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 4: 7.5 LPA no investment (New 75k ded -> 6.75L taxable -> 87A rebate = 0 tax)",
+    "profile": {
+      "gross_salary": 750000.0,
+      "basic_salary": 375000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 54600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 54600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_005",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 5: 7.75 LPA no investment (New 75k ded -> exactly 7.0L taxable -> 87A rebate = 0 tax)",
+    "profile": {
+      "gross_salary": 775000.0,
+      "basic_salary": 387500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 59800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 59800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_006",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 6: 7.75L + 10 rupees (87A marginal relief zone)",
+    "profile": {
+      "gross_salary": 775010.0,
+      "basic_salary": 387505.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 59800.0,
+      "new_regime_tax": 10.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 19991.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 59800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_007",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 7: 7.8 LPA (New regime 87A marginal relief zone)",
+    "profile": {
+      "gross_salary": 780000.0,
+      "basic_salary": 390000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 60840.0,
+      "new_regime_tax": 5200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 15500.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 60840.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_008",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 8: 7.95 LPA (New regime 87A marginal relief zone)",
+    "profile": {
+      "gross_salary": 795000.0,
+      "basic_salary": 397500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 63960.0,
+      "new_regime_tax": 20800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 2000.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 63960.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_009",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 9: 8 LPA (New taxable 7.25L -> marginal relief crossover)",
+    "profile": {
+      "gross_salary": 800000.0,
+      "basic_salary": 400000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 65000.0,
+      "new_regime_tax": 23400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 65000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_010",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 10: 10 LPA with full 80C & 80D",
+    "profile": {
+      "gross_salary": 1000000.0,
+      "basic_salary": 500000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 70200.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 70200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_011",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 11: 12 LPA with full HRA metro, 80C, 80CCD, 80D",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 240000.0,
+      "rent_paid": 300000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 51480.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 51480.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_012",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 12: 15 LPA standard deductions only",
+    "profile": {
+      "gross_salary": 1500000.0,
+      "basic_salary": 750000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 202800.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 202800.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_013",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 13: 18 LPA with home loan 24b maxed",
+    "profile": {
+      "gross_salary": 1800000.0,
+      "basic_salary": 900000.0,
+      "age": 35,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 218400.0,
+      "new_regime_tax": 215800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 218400.0,
+      "new_regime_tax": 150800.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_014",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 14: 20 LPA with senior parents medical 80D",
+    "profile": {
+      "gross_salary": 2000000.0,
+      "basic_salary": 1000000.0,
+      "age": 32,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 50000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 358800.0,
+      "new_regime_tax": 278200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 358800.0,
+      "new_regime_tax": 192400.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_015",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 15: 25 LPA high earner with rent in Mumbai",
+    "profile": {
+      "gross_salary": 2500000.0,
+      "basic_salary": 1250000.0,
+      "age": 40,
+      "hra_received": 400000.0,
+      "rent_paid": 480000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 388440.0,
+      "new_regime_tax": 434200.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 388440.0,
+      "new_regime_tax": 319800.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_016",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 16: Senior citizen (age 65) 6 LPA with 80C",
+    "profile": {
+      "gross_salary": 600000.0,
+      "basic_salary": 300000.0,
+      "age": 65,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_017",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 17: Senior citizen (age 68) 8 LPA with 80C & 80D",
+    "profile": {
+      "gross_salary": 800000.0,
+      "basic_salary": 400000.0,
+      "age": 68,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 50000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 20800.0,
+      "new_regime_tax": 23400.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 20800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_018",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 18: Super senior citizen (age 82) 10 LPA",
+    "profile": {
+      "gross_salary": 1000000.0,
+      "basic_salary": 500000.0,
+      "age": 82,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 100000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 50000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 62400.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 62400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_019",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 19: Super senior citizen (age 85) 12 LPA",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 85,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 50000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 93600.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 93600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_020",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 20: Rent <= 10% basic (Zero HRA exemption)",
+    "profile": {
+      "gross_salary": 900000.0,
+      "basic_salary": 450000.0,
+      "age": 28,
+      "hra_received": 180000.0,
+      "rent_paid": 60000.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 82680.0,
+      "new_regime_tax": 33800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 82680.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_021",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 21: Non-metro 40% cap binding",
+    "profile": {
+      "gross_salary": 1000000.0,
+      "basic_salary": 500000.0,
+      "age": 29,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 67080.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 67080.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_022",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 22: Metro 50% cap binding",
+    "profile": {
+      "gross_salary": 1400000.0,
+      "basic_salary": 700000.0,
+      "age": 31,
+      "hra_received": 300000.0,
+      "rent_paid": 500000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 132600.0,
+      "new_regime_tax": 109200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 132600.0,
+      "new_regime_tax": 81900.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_023",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 23: Just above 50L threshold (Surcharge marginal relief active)",
+    "profile": {
+      "gross_salary": 5050000.0,
+      "basic_salary": 2525000.0,
+      "age": 45,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 1365000.0,
+      "new_regime_tax": 1229800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 1365000.0,
+      "new_regime_tax": 1115400.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_024",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 24: 51 LPA with deductions near 50L net",
+    "profile": {
+      "gross_salary": 5100000.0,
+      "basic_salary": 2550000.0,
+      "age": 45,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 1326000.0,
+      "new_regime_tax": 1263600.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 1326000.0,
+      "new_regime_tax": 1149200.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_025",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 25: 60 LPA (10% surcharge)",
+    "profile": {
+      "gross_salary": 6000000.0,
+      "basic_salary": 3000000.0,
+      "age": 42,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 1827540.0,
+      "new_regime_tax": 1678820.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 1827540.0,
+      "new_regime_tax": 1552980.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_026",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 26: Just above 1 Cr threshold (15% surcharge marginal relief)",
+    "profile": {
+      "gross_salary": 10050000.0,
+      "basic_salary": 5025000.0,
+      "age": 48,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 3217500.0,
+      "new_regime_tax": 3068780.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 3217500.0,
+      "new_regime_tax": 2942940.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_027",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 27: 1.5 Cr high earner (15% surcharge)",
+    "profile": {
+      "gross_salary": 15000000.0,
+      "basic_salary": 7500000.0,
+      "age": 50,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 5139810.0,
+      "new_regime_tax": 4984330.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 5139810.0,
+      "new_regime_tax": 4852770.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_028",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 28: Just above 2 Cr threshold (25% surcharge marginal relief)",
+    "profile": {
+      "gross_salary": 20050000.0,
+      "basic_salary": 10025000.0,
+      "age": 52,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 6951750.0,
+      "new_regime_tax": 6796270.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 6951750.0,
+      "new_regime_tax": 6664710.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_029",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 29: 3 Cr ultra high net worth",
+    "profile": {
+      "gross_salary": 30000000.0,
+      "basic_salary": 15000000.0,
+      "age": 55,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 11436750.0,
+      "new_regime_tax": 11267750.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 11436750.0,
+      "new_regime_tax": 11124750.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_030",
+    "category": "OFFICIAL_BENCHMARK_30",
+    "description": "Official Ref 30: 6 Cr super high earner (37% Old vs 25% New surcharge cap)",
+    "profile": {
+      "gross_salary": 60000000.0,
+      "basic_salary": 30000000.0,
+      "age": 58,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": false,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 25357880.0,
+      "new_regime_tax": 22967750.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 25357880.0,
+      "new_regime_tax": 22824750.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_031",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b90 with zero_ded",
+    "profile": {
+      "gross_salary": 0.0,
+      "basic_salary": 0.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_032",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b90 with full_80c",
+    "profile": {
+      "gross_salary": 0.0,
+      "basic_salary": 0.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_033",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b90 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 0.0,
+      "basic_salary": 0.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_034",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b90 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 0.0,
+      "basic_salary": 0.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_035",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b950,000 with zero_ded",
+    "profile": {
+      "gross_salary": 50000.0,
+      "basic_salary": 25000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_036",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b950,000 with full_80c",
+    "profile": {
+      "gross_salary": 50000.0,
+      "basic_salary": 25000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_037",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b950,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 50000.0,
+      "basic_salary": 25000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_038",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b950,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 50000.0,
+      "basic_salary": 25000.0,
+      "age": 30,
+      "hra_received": 15000.0,
+      "rent_paid": 20000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_039",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b975,000 with zero_ded",
+    "profile": {
+      "gross_salary": 75000.0,
+      "basic_salary": 37500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_040",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b975,000 with full_80c",
+    "profile": {
+      "gross_salary": 75000.0,
+      "basic_salary": 37500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_041",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b975,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 75000.0,
+      "basic_salary": 37500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_042",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b975,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 75000.0,
+      "basic_salary": 37500.0,
+      "age": 30,
+      "hra_received": 22500.0,
+      "rent_paid": 30000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_043",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9100,000 with zero_ded",
+    "profile": {
+      "gross_salary": 100000.0,
+      "basic_salary": 50000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_044",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9100,000 with full_80c",
+    "profile": {
+      "gross_salary": 100000.0,
+      "basic_salary": 50000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_045",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9100,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 100000.0,
+      "basic_salary": 50000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_046",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9100,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 100000.0,
+      "basic_salary": 50000.0,
+      "age": 30,
+      "hra_received": 30000.0,
+      "rent_paid": 40000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_047",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9200,000 with zero_ded",
+    "profile": {
+      "gross_salary": 200000.0,
+      "basic_salary": 100000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_048",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9200,000 with full_80c",
+    "profile": {
+      "gross_salary": 200000.0,
+      "basic_salary": 100000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_049",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9200,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 200000.0,
+      "basic_salary": 100000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_050",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9200,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 200000.0,
+      "basic_salary": 100000.0,
+      "age": 30,
+      "hra_received": 60000.0,
+      "rent_paid": 80000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_051",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9250,000 with zero_ded",
+    "profile": {
+      "gross_salary": 250000.0,
+      "basic_salary": 125000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_052",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9250,000 with full_80c",
+    "profile": {
+      "gross_salary": 250000.0,
+      "basic_salary": 125000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_053",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9250,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 250000.0,
+      "basic_salary": 125000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_054",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9250,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 250000.0,
+      "basic_salary": 125000.0,
+      "age": 30,
+      "hra_received": 75000.0,
+      "rent_paid": 100000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_055",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9250,010 with zero_ded",
+    "profile": {
+      "gross_salary": 250010.0,
+      "basic_salary": 125005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_056",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9250,010 with full_80c",
+    "profile": {
+      "gross_salary": 250010.0,
+      "basic_salary": 125005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_057",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9250,010 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 250010.0,
+      "basic_salary": 125005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_058",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9250,010 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 250010.0,
+      "basic_salary": 125005.0,
+      "age": 30,
+      "hra_received": 75003.0,
+      "rent_paid": 100004.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_059",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9300,000 with zero_ded",
+    "profile": {
+      "gross_salary": 300000.0,
+      "basic_salary": 150000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_060",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9300,000 with full_80c",
+    "profile": {
+      "gross_salary": 300000.0,
+      "basic_salary": 150000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_061",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9300,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 300000.0,
+      "basic_salary": 150000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_062",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9300,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 300000.0,
+      "basic_salary": 150000.0,
+      "age": 30,
+      "hra_received": 90000.0,
+      "rent_paid": 120000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_063",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9400,000 with zero_ded",
+    "profile": {
+      "gross_salary": 400000.0,
+      "basic_salary": 200000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_064",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9400,000 with full_80c",
+    "profile": {
+      "gross_salary": 400000.0,
+      "basic_salary": 200000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_065",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9400,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 400000.0,
+      "basic_salary": 200000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_066",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9400,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 400000.0,
+      "basic_salary": 200000.0,
+      "age": 30,
+      "hra_received": 120000.0,
+      "rent_paid": 160000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_067",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9499,990 with zero_ded",
+    "profile": {
+      "gross_salary": 499990.0,
+      "basic_salary": 249995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_068",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9499,990 with full_80c",
+    "profile": {
+      "gross_salary": 499990.0,
+      "basic_salary": 249995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_069",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9499,990 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 499990.0,
+      "basic_salary": 249995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_070",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9499,990 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 499990.0,
+      "basic_salary": 249995.0,
+      "age": 30,
+      "hra_received": 149997.0,
+      "rent_paid": 199996.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_071",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9500,000 with zero_ded",
+    "profile": {
+      "gross_salary": 500000.0,
+      "basic_salary": 250000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_072",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9500,000 with full_80c",
+    "profile": {
+      "gross_salary": 500000.0,
+      "basic_salary": 250000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_073",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9500,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 500000.0,
+      "basic_salary": 250000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_074",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9500,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 500000.0,
+      "basic_salary": 250000.0,
+      "age": 30,
+      "hra_received": 150000.0,
+      "rent_paid": 200000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_075",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9500,010 with zero_ded",
+    "profile": {
+      "gross_salary": 500010.0,
+      "basic_salary": 250005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_076",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9500,010 with full_80c",
+    "profile": {
+      "gross_salary": 500010.0,
+      "basic_salary": 250005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_077",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9500,010 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 500010.0,
+      "basic_salary": 250005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_078",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9500,010 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 500010.0,
+      "basic_salary": 250005.0,
+      "age": 30,
+      "hra_received": 150003.0,
+      "rent_paid": 200004.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_079",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9520,000 with zero_ded",
+    "profile": {
+      "gross_salary": 520000.0,
+      "basic_salary": 260000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_080",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9520,000 with full_80c",
+    "profile": {
+      "gross_salary": 520000.0,
+      "basic_salary": 260000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_081",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9520,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 520000.0,
+      "basic_salary": 260000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_082",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9520,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 520000.0,
+      "basic_salary": 260000.0,
+      "age": 30,
+      "hra_received": 156000.0,
+      "rent_paid": 208000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_083",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9550,000 with zero_ded",
+    "profile": {
+      "gross_salary": 550000.0,
+      "basic_salary": 275000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_084",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9550,000 with full_80c",
+    "profile": {
+      "gross_salary": 550000.0,
+      "basic_salary": 275000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_085",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9550,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 550000.0,
+      "basic_salary": 275000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_086",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9550,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 550000.0,
+      "basic_salary": 275000.0,
+      "age": 30,
+      "hra_received": 165000.0,
+      "rent_paid": 220000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_087",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9600,000 with zero_ded",
+    "profile": {
+      "gross_salary": 600000.0,
+      "basic_salary": 300000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 23400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 23400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_088",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9600,000 with full_80c",
+    "profile": {
+      "gross_salary": 600000.0,
+      "basic_salary": 300000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_089",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9600,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 600000.0,
+      "basic_salary": 300000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_090",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9600,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 600000.0,
+      "basic_salary": 300000.0,
+      "age": 30,
+      "hra_received": 180000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_091",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9699,990 with zero_ded",
+    "profile": {
+      "gross_salary": 699990.0,
+      "basic_salary": 349995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 44200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 44200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_092",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9699,990 with full_80c",
+    "profile": {
+      "gross_salary": 699990.0,
+      "basic_salary": 349995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_093",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9699,990 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 699990.0,
+      "basic_salary": 349995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_094",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9699,990 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 699990.0,
+      "basic_salary": 349995.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_095",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9700,000 with zero_ded",
+    "profile": {
+      "gross_salary": 700000.0,
+      "basic_salary": 350000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 44200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 44200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_096",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9700,000 with full_80c",
+    "profile": {
+      "gross_salary": 700000.0,
+      "basic_salary": 350000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_097",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9700,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 700000.0,
+      "basic_salary": 350000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_098",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9700,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 700000.0,
+      "basic_salary": 350000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_099",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9700,010 with zero_ded",
+    "profile": {
+      "gross_salary": 700010.0,
+      "basic_salary": 350005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 44200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 44200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_100",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9700,010 with full_80c",
+    "profile": {
+      "gross_salary": 700010.0,
+      "basic_salary": 350005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 13000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 13000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_101",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9700,010 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 700010.0,
+      "basic_salary": 350005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_102",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9700,010 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 700010.0,
+      "basic_salary": 350005.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_103",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9705,000 with zero_ded",
+    "profile": {
+      "gross_salary": 705000.0,
+      "basic_salary": 352500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 45240.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 45240.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_104",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9705,000 with full_80c",
+    "profile": {
+      "gross_salary": 705000.0,
+      "basic_salary": 352500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 14040.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 14040.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_105",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9705,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 705000.0,
+      "basic_salary": 352500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_106",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9705,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 705000.0,
+      "basic_salary": 352500.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_107",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9710,000 with zero_ded",
+    "profile": {
+      "gross_salary": 710000.0,
+      "basic_salary": 355000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 46280.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 46280.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_108",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9710,000 with full_80c",
+    "profile": {
+      "gross_salary": 710000.0,
+      "basic_salary": 355000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 15080.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 15080.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_109",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9710,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 710000.0,
+      "basic_salary": 355000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_110",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9710,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 710000.0,
+      "basic_salary": 355000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_111",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9715,000 with zero_ded",
+    "profile": {
+      "gross_salary": 715000.0,
+      "basic_salary": 357500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 47320.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 47320.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_112",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9715,000 with full_80c",
+    "profile": {
+      "gross_salary": 715000.0,
+      "basic_salary": 357500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 16120.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 16120.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_113",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9715,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 715000.0,
+      "basic_salary": 357500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_114",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9715,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 715000.0,
+      "basic_salary": 357500.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_115",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9720,000 with zero_ded",
+    "profile": {
+      "gross_salary": 720000.0,
+      "basic_salary": 360000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 48360.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 48360.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_116",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9720,000 with full_80c",
+    "profile": {
+      "gross_salary": 720000.0,
+      "basic_salary": 360000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 17160.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 17160.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_117",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9720,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 720000.0,
+      "basic_salary": 360000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_118",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9720,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 720000.0,
+      "basic_salary": 360000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_119",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9722,220 with zero_ded",
+    "profile": {
+      "gross_salary": 722220.0,
+      "basic_salary": 361110.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 48820.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 48820.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_120",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9722,220 with full_80c",
+    "profile": {
+      "gross_salary": 722220.0,
+      "basic_salary": 361110.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 17620.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 17620.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_121",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9722,220 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 722220.0,
+      "basic_salary": 361110.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_122",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9722,220 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 722220.0,
+      "basic_salary": 361110.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_123",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9725,000 with zero_ded",
+    "profile": {
+      "gross_salary": 725000.0,
+      "basic_salary": 362500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 49400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 49400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_124",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9725,000 with full_80c",
+    "profile": {
+      "gross_salary": 725000.0,
+      "basic_salary": 362500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 18200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 18200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_125",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9725,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 725000.0,
+      "basic_salary": 362500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_126",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9725,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 725000.0,
+      "basic_salary": 362500.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_127",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9727,770 with zero_ded",
+    "profile": {
+      "gross_salary": 727770.0,
+      "basic_salary": 363885.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 49980.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 49980.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_128",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9727,770 with full_80c",
+    "profile": {
+      "gross_salary": 727770.0,
+      "basic_salary": 363885.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 18780.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 18780.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_129",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9727,770 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 727770.0,
+      "basic_salary": 363885.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_130",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9727,770 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 727770.0,
+      "basic_salary": 363885.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_131",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9730,000 with zero_ded",
+    "profile": {
+      "gross_salary": 730000.0,
+      "basic_salary": 365000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 50440.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 50440.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_132",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9730,000 with full_80c",
+    "profile": {
+      "gross_salary": 730000.0,
+      "basic_salary": 365000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 19240.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 19240.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_133",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9730,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 730000.0,
+      "basic_salary": 365000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_134",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9730,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 730000.0,
+      "basic_salary": 365000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_135",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,199,990 with zero_ded",
+    "profile": {
+      "gross_salary": 1199990.0,
+      "basic_salary": 599995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_136",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,199,990 with full_80c",
+    "profile": {
+      "gross_salary": 1199990.0,
+      "basic_salary": 599995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_137",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,199,990 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1199990.0,
+      "basic_salary": 599995.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_138",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,199,990 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1199990.0,
+      "basic_salary": 599995.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_139",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,200,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_140",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,200,000 with full_80c",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_141",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,200,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_142",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,200,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_143",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,200,010 with zero_ded",
+    "profile": {
+      "gross_salary": 1200010.0,
+      "basic_salary": 600005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_144",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,200,010 with full_80c",
+    "profile": {
+      "gross_salary": 1200010.0,
+      "basic_salary": 600005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_145",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,200,010 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1200010.0,
+      "basic_salary": 600005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_146",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,200,010 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1200010.0,
+      "basic_salary": 600005.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_147",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,220,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1220000.0,
+      "basic_salary": 610000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 170040.0,
+      "new_regime_tax": 74620.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 170040.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_148",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,220,000 with full_80c",
+    "profile": {
+      "gross_salary": 1220000.0,
+      "basic_salary": 610000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 123240.0,
+      "new_regime_tax": 74620.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 123240.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_149",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,220,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1220000.0,
+      "basic_salary": 610000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 95160.0,
+      "new_regime_tax": 74620.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 95160.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_150",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,220,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1220000.0,
+      "basic_salary": 610000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 16330.0,
+      "new_regime_tax": 74620.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 16330.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_151",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,250,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1250000.0,
+      "basic_salary": 625000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 179400.0,
+      "new_regime_tax": 79300.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 179400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_152",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,250,000 with full_80c",
+    "profile": {
+      "gross_salary": 1250000.0,
+      "basic_salary": 625000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 132600.0,
+      "new_regime_tax": 79300.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 132600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_153",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,250,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1250000.0,
+      "basic_salary": 625000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 101400.0,
+      "new_regime_tax": 79300.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 101400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_154",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,250,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1250000.0,
+      "basic_salary": 625000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 22880.0,
+      "new_regime_tax": 79300.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 22880.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_155",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,270,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1270000.0,
+      "basic_salary": 635000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 185640.0,
+      "new_regime_tax": 82420.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 185640.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_156",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,270,000 with full_80c",
+    "profile": {
+      "gross_salary": 1270000.0,
+      "basic_salary": 635000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 138840.0,
+      "new_regime_tax": 82420.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 138840.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_157",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,270,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1270000.0,
+      "basic_salary": 635000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 105560.0,
+      "new_regime_tax": 82420.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 105560.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_158",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,270,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1270000.0,
+      "basic_salary": 635000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 27250.0,
+      "new_regime_tax": 82420.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 27250.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_159",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,270,580 with zero_ded",
+    "profile": {
+      "gross_salary": 1270580.0,
+      "basic_salary": 635290.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 185820.0,
+      "new_regime_tax": 82510.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 185820.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_160",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,270,580 with full_80c",
+    "profile": {
+      "gross_salary": 1270580.0,
+      "basic_salary": 635290.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 139020.0,
+      "new_regime_tax": 82510.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 139020.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_161",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,270,580 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1270580.0,
+      "basic_salary": 635290.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 105680.0,
+      "new_regime_tax": 82510.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 105680.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_162",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,270,580 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1270580.0,
+      "basic_salary": 635290.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 27370.0,
+      "new_regime_tax": 82510.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 27370.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_163",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,275,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1275000.0,
+      "basic_salary": 637500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 187200.0,
+      "new_regime_tax": 83200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 187200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_164",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,275,000 with full_80c",
+    "profile": {
+      "gross_salary": 1275000.0,
+      "basic_salary": 637500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 140400.0,
+      "new_regime_tax": 83200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 140400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_165",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,275,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1275000.0,
+      "basic_salary": 637500.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 106600.0,
+      "new_regime_tax": 83200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 106600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_166",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,275,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1275000.0,
+      "basic_salary": 637500.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 28340.0,
+      "new_regime_tax": 83200.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 28340.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_167",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,280,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1280000.0,
+      "basic_salary": 640000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 188760.0,
+      "new_regime_tax": 84240.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 188760.0,
+      "new_regime_tax": 5200.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_168",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,280,000 with full_80c",
+    "profile": {
+      "gross_salary": 1280000.0,
+      "basic_salary": 640000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 141960.0,
+      "new_regime_tax": 84240.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 141960.0,
+      "new_regime_tax": 5200.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_169",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,280,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1280000.0,
+      "basic_salary": 640000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 107640.0,
+      "new_regime_tax": 84240.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 107640.0,
+      "new_regime_tax": 5200.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_170",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,280,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1280000.0,
+      "basic_salary": 640000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 29430.0,
+      "new_regime_tax": 84240.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 29430.0,
+      "new_regime_tax": 5200.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_171",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9800,000 with zero_ded",
+    "profile": {
+      "gross_salary": 800000.0,
+      "basic_salary": 400000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 65000.0,
+      "new_regime_tax": 23400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 65000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_172",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9800,000 with full_80c",
+    "profile": {
+      "gross_salary": 800000.0,
+      "basic_salary": 400000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 33800.0,
+      "new_regime_tax": 23400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 33800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_173",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9800,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 800000.0,
+      "basic_salary": 400000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 23400.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_174",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9800,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 800000.0,
+      "basic_salary": 400000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 23400.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_175",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b9900,000 with zero_ded",
+    "profile": {
+      "gross_salary": 900000.0,
+      "basic_salary": 450000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 85800.0,
+      "new_regime_tax": 33800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 85800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_176",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b9900,000 with full_80c",
+    "profile": {
+      "gross_salary": 900000.0,
+      "basic_salary": 450000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 54600.0,
+      "new_regime_tax": 33800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 54600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_177",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b9900,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 900000.0,
+      "basic_salary": 450000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 28600.0,
+      "new_regime_tax": 33800.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 28600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_178",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b9900,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 900000.0,
+      "basic_salary": 450000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 33800.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_179",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,000,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1000000.0,
+      "basic_salary": 500000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 106600.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 106600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_180",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,000,000 with full_80c",
+    "profile": {
+      "gross_salary": 1000000.0,
+      "basic_salary": 500000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 75400.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 75400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_181",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,000,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1000000.0,
+      "basic_salary": 500000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 49400.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 49400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_182",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,000,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1000000.0,
+      "basic_salary": 500000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_183",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,000,010 with zero_ded",
+    "profile": {
+      "gross_salary": 1000010.0,
+      "basic_salary": 500005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 106600.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 106600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_184",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,000,010 with full_80c",
+    "profile": {
+      "gross_salary": 1000010.0,
+      "basic_salary": 500005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 75400.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 75400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_185",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,000,010 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1000010.0,
+      "basic_salary": 500005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 49400.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 49400.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_186",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,000,010 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1000010.0,
+      "basic_salary": 500005.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 44200.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_187",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,100,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1100000.0,
+      "basic_salary": 550000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 132600.0,
+      "new_regime_tax": 55900.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 132600.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_188",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,100,000 with full_80c",
+    "profile": {
+      "gross_salary": 1100000.0,
+      "basic_salary": 550000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 96200.0,
+      "new_regime_tax": 55900.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 96200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_189",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,100,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1100000.0,
+      "basic_salary": 550000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 70200.0,
+      "new_regime_tax": 55900.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 70200.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_190",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,100,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1100000.0,
+      "basic_salary": 550000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 55900.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_191",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,200,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 163800.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_192",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,200,000 with full_80c",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 117000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_193",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,200,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 91000.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_194",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,200,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1200000.0,
+      "basic_salary": 600000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 71500.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 0.0,
+      "new_regime_tax": 0.0,
+      "recommended_regime": "EITHER"
+    }
+  },
+  {
+    "test_id": "TEST_195",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,300,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1300000.0,
+      "basic_salary": 650000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 195000.0,
+      "new_regime_tax": 88400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 195000.0,
+      "new_regime_tax": 26000.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_196",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,300,000 with full_80c",
+    "profile": {
+      "gross_salary": 1300000.0,
+      "basic_salary": 650000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 148200.0,
+      "new_regime_tax": 88400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 148200.0,
+      "new_regime_tax": 26000.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_197",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,300,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1300000.0,
+      "basic_salary": 650000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 111800.0,
+      "new_regime_tax": 88400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 111800.0,
+      "new_regime_tax": 26000.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_198",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,300,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1300000.0,
+      "basic_salary": 650000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 33800.0,
+      "new_regime_tax": 88400.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 33800.0,
+      "new_regime_tax": 26000.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_199",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,400,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1400000.0,
+      "basic_salary": 700000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 226200.0,
+      "new_regime_tax": 109200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 226200.0,
+      "new_regime_tax": 81900.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_200",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,400,000 with full_80c",
+    "profile": {
+      "gross_salary": 1400000.0,
+      "basic_salary": 700000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 179400.0,
+      "new_regime_tax": 109200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 179400.0,
+      "new_regime_tax": 81900.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_201",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,400,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1400000.0,
+      "basic_salary": 700000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 140400.0,
+      "new_regime_tax": 109200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 140400.0,
+      "new_regime_tax": 81900.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_202",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,400,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1400000.0,
+      "basic_salary": 700000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 55640.0,
+      "new_regime_tax": 109200.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 55640.0,
+      "new_regime_tax": 81900.0,
+      "recommended_regime": "OLD"
+    }
+  },
+  {
+    "test_id": "TEST_203",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,500,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1500000.0,
+      "basic_salary": 750000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 257400.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 257400.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_204",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,500,000 with full_80c",
+    "profile": {
+      "gross_salary": 1500000.0,
+      "basic_salary": 750000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 210600.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 210600.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_205",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,500,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1500000.0,
+      "basic_salary": 750000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 171600.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 171600.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_206",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,500,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1500000.0,
+      "basic_salary": 750000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 77480.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 77480.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "OLD"
+    }
+  },
+  {
+    "test_id": "TEST_207",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,500,010 with zero_ded",
+    "profile": {
+      "gross_salary": 1500010.0,
+      "basic_salary": 750005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 257400.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 257400.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_208",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,500,010 with full_80c",
+    "profile": {
+      "gross_salary": 1500010.0,
+      "basic_salary": 750005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 210600.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 210600.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_209",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,500,010 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1500010.0,
+      "basic_salary": 750005.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 171600.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 171600.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_210",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,500,010 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1500010.0,
+      "basic_salary": 750005.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 77480.0,
+      "new_regime_tax": 130000.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 77480.0,
+      "new_regime_tax": 97500.0,
+      "recommended_regime": "OLD"
+    }
+  },
+  {
+    "test_id": "TEST_211",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,600,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1600000.0,
+      "basic_salary": 800000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 288600.0,
+      "new_regime_tax": 153400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 288600.0,
+      "new_regime_tax": 113100.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_212",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,600,000 with full_80c",
+    "profile": {
+      "gross_salary": 1600000.0,
+      "basic_salary": 800000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 241800.0,
+      "new_regime_tax": 153400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 241800.0,
+      "new_regime_tax": 113100.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_213",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,600,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1600000.0,
+      "basic_salary": 800000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 202800.0,
+      "new_regime_tax": 153400.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 202800.0,
+      "new_regime_tax": 113100.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_214",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,600,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1600000.0,
+      "basic_salary": 800000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 99320.0,
+      "new_regime_tax": 153400.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 99320.0,
+      "new_regime_tax": 113100.0,
+      "recommended_regime": "OLD"
+    }
+  },
+  {
+    "test_id": "TEST_215",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b91,800,000 with zero_ded",
+    "profile": {
+      "gross_salary": 1800000.0,
+      "basic_salary": 900000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 351000.0,
+      "new_regime_tax": 215800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 351000.0,
+      "new_regime_tax": 150800.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_216",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b91,800,000 with full_80c",
+    "profile": {
+      "gross_salary": 1800000.0,
+      "basic_salary": 900000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 304200.0,
+      "new_regime_tax": 215800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 304200.0,
+      "new_regime_tax": 150800.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_217",
+    "category": "THRESHOLD_GRID_full_80c_nps_80d",
+    "description": "Salary \u20b91,800,000 with full_80c_nps_80d",
+    "profile": {
+      "gross_salary": 1800000.0,
+      "basic_salary": 900000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 265200.0,
+      "new_regime_tax": 215800.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 265200.0,
+      "new_regime_tax": 150800.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_218",
+    "category": "THRESHOLD_GRID_max_all_inclusive_home",
+    "description": "Salary \u20b91,800,000 with max_all_inclusive_home",
+    "profile": {
+      "gross_salary": 1800000.0,
+      "basic_salary": 900000.0,
+      "age": 30,
+      "hra_received": 200000.0,
+      "rent_paid": 240000.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 50000.0,
+      "section_80d_self": 25000.0,
+      "section_80d_parents": 50000.0,
+      "parents_senior": true,
+      "home_loan_interest_self_occupied": 200000.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 156000.0,
+      "new_regime_tax": 215800.0,
+      "recommended_regime": "OLD",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 156000.0,
+      "new_regime_tax": 150800.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_219",
+    "category": "THRESHOLD_GRID_zero_ded",
+    "description": "Salary \u20b92,000,000 with zero_ded",
+    "profile": {
+      "gross_salary": 2000000.0,
+      "basic_salary": 1000000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 0.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 413400.0,
+      "new_regime_tax": 278200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 413400.0,
+      "new_regime_tax": 192400.0,
+      "recommended_regime": "NEW"
+    }
+  },
+  {
+    "test_id": "TEST_220",
+    "category": "THRESHOLD_GRID_full_80c",
+    "description": "Salary \u20b92,000,000 with full_80c",
+    "profile": {
+      "gross_salary": 2000000.0,
+      "basic_salary": 1000000.0,
+      "age": 30,
+      "hra_received": 0.0,
+      "rent_paid": 0.0,
+      "is_metro": true,
+      "city": null,
+      "section_80c": 150000.0,
+      "section_80ccd_1b": 0.0,
+      "section_80d_self": 0.0,
+      "section_80d_parents": 0.0,
+      "parents_senior": false,
+      "home_loan_interest_self_occupied": 0.0
+    },
+    "expected_fy24_25": {
+      "old_regime_tax": 366600.0,
+      "new_regime_tax": 278200.0,
+      "recommended_regime": "NEW",
+      "new_regime_87a_relief": 0.0
+    },
+    "expected_fy25_26": {
+      "old_regime_tax": 366600.0,
+      "new_regime_tax": 192400.0,
+      "recommended_regime": "NEW"
+    }
+  }
+]
